@@ -1,0 +1,6 @@
+User-agent: *
+
+Disallow: /resources/ReinerHS.png
+Disallow: /resources/RHS.PNG
+
+Allow: /
