@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta name="robots" content="index, follow">
-    <meta name="author" content="ReinerHS">
+    <meta name="author" content="Evan Perzhynskyi">
     <meta name="description"
         content="ReinerHS is a dropshipping business offering an easy way to start your own online store. Learn more about our services, agreements, and pricing.">
     <meta name="keywords"
@@ -67,13 +67,13 @@
         border-color: black;
     }
 
-    a {
-        color: black;
+    .link {
+        color: rgb(0, 105, 205);
 
         text-decoration: none;
     }
 
-    a:hover {
+    .link:hover {
         text-decoration: underline;
     }
 
@@ -97,7 +97,8 @@
                 <li class="nav-item"><a class="nav-link text-light" style="font-size: 24px;" href="/">Home</a></li>
                 <li class="nav-item"><a class="nav-link text-light" style="font-size: 24px;" href="about">About Us</a>
                 </li>
-                <li class="nav-item"><a class="nav-link text-light" style="font-size: 24px;" href="what">How We Work &
+                <li class="nav-item"><a class="nav-link text-light" style="font-size: 24px;" href="conditions">How We
+                        Work &
                         Conditions</a></li>
                 <li class="nav-item"><a class="nav-link text-light" style="font-size: 24px;"
                         href="agreements">Agreements</a>
@@ -132,53 +133,62 @@
             <div class="mt-3" data-aos="fade-up">
                 <label for="message" class="form-label">Your Message To Us</label>
                 <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
-            </div><br>
+            </div>
+
+            <p class="mt-2 text-muted" style="font-style: italic;">
+                <small>
+                    Please specify your preferred contact method for a more convenient response. We support
+                    communication via <strong>Discord</strong>, <strong>Telegram</strong>, <strong>X (Twitter)</strong>, or <strong>Reddit</strong>. If none of these options are suitable,
+                    we will reply via email.
+                </small>
+            </p>
 
             <div class="form-check" data-aos="fade-up">
                 <input type="checkbox" class="form-check-input" id="conditions">
                 <label class="form-check-label" for="dropshippingAgreement">I know <strong><a href="what"
-                            target="_blank">ReinerHS' conditions and how everything works</a></strong></label>
+                            target="_blank" class="link">ReinerHS' conditions and how everything
+                            works</a></strong></label>
             </div>
 
             <div class="form-check" data-aos="fade-up">
                 <input type="checkbox" class="form-check-input" id="dropshippingAgreement">
                 <label class="form-check-label" for="dropshippingAgreement">I agree to the <strong><a
-                            href="agreements#dropshipping" target="_blank">Dropshipping
+                            href="agreements#dropshipping" target="_blank" class="link">Dropshipping
                             Agreement</a></strong></label>
             </div>
 
             <div class="form-check" data-aos="fade-up">
                 <input type="checkbox" class="form-check-input" id="serviceAgreement">
                 <label class="form-check-label" for="serviceAgreement">I agree to the <strong><a
-                            href="agreements#service" target="_blank">Service
+                            href="agreements#service" target="_blank" class="link">Service
                             Agreement</a></strong></label>
             </div>
 
             <div class="form-check" data-aos="fade-up">
                 <input type="checkbox" class="form-check-input" id="ndaAgreement">
                 <label class="form-check-label" for="ndaAgreement">I agree to the <strong><a href="agreements#nda"
-                            target="_blank">Non-Disclosure Agreement
+                            target="_blank" class="link">Non-Disclosure Agreement
                             (NDA)</a></strong></label>
             </div>
 
             <div class="form-check" data-aos="fade-up">
                 <input type="checkbox" class="form-check-input" id="hostingAgreement">
                 <label class="form-check-label" for="hostingAgreement">I agree to the <strong><a
-                            href="agreements#hosting" target="_blank">Hosting
+                            href="agreements#hosting" target="_blank" class="link">Hosting
                             Agreement</a></strong></label>
             </div>
 
             <div class="form-check" data-aos="fade-up">
                 <input type="checkbox" class="form-check-input" id="brandingAgreement">
                 <label class="form-check-label" for="brandingAgreement">I agree to the <strong><a
-                            href="agreements#branding" target="_blank">Branding
+                            href="agreements#branding" target="_blank" class="link">Branding
                             Agreement</a></strong></label>
             </div>
 
             <div class="form-check" data-aos="fade-up">
                 <input type="checkbox" class="form-check-input" id="finalAgreement">
                 <label class="form-check-label" for="finalAgreement">I agree to the <strong><a href="agreements#final"
-                            target="_blank">Final Agreement & Future
+                            target="_blank" class="link">Final Agreement & Future
                             Cooperation</a></strong></label>
             </div>
 
