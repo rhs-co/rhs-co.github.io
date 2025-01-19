@@ -2,5 +2,6 @@ User-agent: *
 
 Disallow: /resources/ReinerHS.png
 Disallow: /resources/RHS.PNG
+Disallow: /resources/banner.png
 
 Allow: /
